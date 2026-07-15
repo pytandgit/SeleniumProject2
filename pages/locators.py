@@ -16,4 +16,4 @@ class ProductPageLocators:
     BOOKNAME_IN_MESSAGE = (By.CSS_SELECTOR, "#messages .alert-success strong")
     PRICE_IN_CARD = (By.CSS_SELECTOR, "div.col-sm-6.product_main > p.price_color")
     PRICE_IN_MESSAGE = (By.CSS_SELECTOR, "div.alert.alert-safe.alert-noicon.alert-info.fade.in > div > p:nth-child(1) > strong")
-
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.alert-success")
